@@ -1,0 +1,73 @@
+{
+  "query_results": [
+    {
+      "query": "Q1",
+      "rows": 30,
+      "columns": [
+        "customer_id",
+        "spend_above_500"
+      ]
+    },
+    {
+      "query": "Q2",
+      "rows": 30,
+      "columns": [
+        "city",
+        "category",
+        "revenue_inr"
+      ]
+    },
+    {
+      "query": "Q3",
+      "rows": 11,
+      "columns": [
+        "product_id",
+        "product_name",
+        "price_inr"
+      ]
+    },
+    {
+      "query": "Q4",
+      "rows": 25,
+      "columns": [
+        "customer_id"
+      ]
+    },
+    {
+      "query": "Q5",
+      "rows": 550,
+      "columns": [
+        "customer_id",
+        "total_spend"
+      ]
+    },
+    {
+      "query": "Q6",
+      "rows": 1175,
+      "columns": [
+        "customer_id",
+        "city",
+        "total_spend",
+        "spend_rank",
+        "dense_rank",
+        "row_num"
+      ]
+    },
+    {
+      "query": "Q7",
+      "rows": 183,
+      "columns": [
+        "day",
+        "revenue",
+        "cumulative_revenue"
+      ]
+    }
+  ],
+  "q2_rows": 30,
+  "q2_total_revenue": 2998668.8,
+  "q3_rows": 11,
+  "q4_rows": 25,
+  "q5_rows": 550,
+  "q7_rows": 183,
+  "q7_last_cumulative": 2998668.8
+}

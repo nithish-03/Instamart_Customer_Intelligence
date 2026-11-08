@@ -1,0 +1,349 @@
+{
+  "zero_shot": {
+    "run": "zero-shot",
+    "budget": 100000,
+    "total_tokens": 10336,
+    "classified": 147,
+    "tokens_per_classified": 70.31292517006803,
+    "accuracy": 0.8571428571428571,
+    "status_counts": {
+      "classified_json": 135,
+      "classified_keyword": 12,
+      "flagged_invalid_output": 9,
+      "skipped_empty": 4,
+      "flagged_long": 4
+    },
+    "redaction_counts": {
+      "email": 55,
+      "phone": 91,
+      "order_id": 132
+    },
+    "redaction_total": 278,
+    "retry_count": 19,
+    "retries": [
+      {
+        "ticket_id": "T0002",
+        "retry_number": 0,
+        "wait_seconds": 0.05299283498072355
+      },
+      {
+        "ticket_id": "T0116",
+        "retry_number": 0,
+        "wait_seconds": 0.04548189799171726
+      },
+      {
+        "ticket_id": "T0153",
+        "retry_number": 0,
+        "wait_seconds": 0.05010669849068117
+      },
+      {
+        "ticket_id": "T0039",
+        "retry_number": 0,
+        "wait_seconds": 0.04839844267980114
+      },
+      {
+        "ticket_id": "T0152",
+        "retry_number": 0,
+        "wait_seconds": 0.0561033509556561
+      },
+      {
+        "ticket_id": "T0043",
+        "retry_number": 0,
+        "wait_seconds": 0.049398078197848534
+      },
+      {
+        "ticket_id": "T0111",
+        "retry_number": 0,
+        "wait_seconds": 0.051851972855204126
+      },
+      {
+        "ticket_id": "T0155",
+        "retry_number": 0,
+        "wait_seconds": 0.0458360497042844
+      },
+      {
+        "ticket_id": "T0100",
+        "retry_number": 0,
+        "wait_seconds": 0.05121920710948252
+      },
+      {
+        "ticket_id": "T0068",
+        "retry_number": 0,
+        "wait_seconds": 0.04804397203386671
+      },
+      {
+        "ticket_id": "T0135",
+        "retry_number": 0,
+        "wait_seconds": 0.05722943572963746
+      },
+      {
+        "ticket_id": "T0009",
+        "retry_number": 0,
+        "wait_seconds": 0.0527142684583744
+      },
+      {
+        "ticket_id": "T0067",
+        "retry_number": 0,
+        "wait_seconds": 0.05642053715693614
+      },
+      {
+        "ticket_id": "T0106",
+        "retry_number": 0,
+        "wait_seconds": 0.046129248178366875
+      },
+      {
+        "ticket_id": "T0097",
+        "retry_number": 0,
+        "wait_seconds": 0.057073989850311806
+      },
+      {
+        "ticket_id": "T0003",
+        "retry_number": 0,
+        "wait_seconds": 0.045532071419782216
+      },
+      {
+        "ticket_id": "T0019",
+        "retry_number": 0,
+        "wait_seconds": 0.052259464561674455
+      },
+      {
+        "ticket_id": "T0086",
+        "retry_number": 0,
+        "wait_seconds": 0.04780231843559158
+      },
+      {
+        "ticket_id": "T0065",
+        "retry_number": 0,
+        "wait_seconds": 0.048847584434172225
+      }
+    ],
+    "budget_exhausted": 0,
+    "confusion_table": {
+      "billing": {
+        "billing": 38,
+        "delivery": 0,
+        "fraud": 0,
+        "technical": 0
+      },
+      "delivery": {
+        "billing": 0,
+        "delivery": 36,
+        "fraud": 0,
+        "technical": 0
+      },
+      "fraud": {
+        "billing": 11,
+        "delivery": 0,
+        "fraud": 23,
+        "technical": 0
+      },
+      "technical": {
+        "billing": 10,
+        "delivery": 0,
+        "fraud": 0,
+        "technical": 29
+      }
+    }
+  },
+  "few_shot": {
+    "run": "few-shot",
+    "budget": 100000,
+    "total_tokens": 16264,
+    "classified": 147,
+    "tokens_per_classified": 110.63945578231292,
+    "accuracy": 1.0,
+    "status_counts": {
+      "classified_json": 135,
+      "classified_keyword": 12,
+      "flagged_invalid_output": 9,
+      "skipped_empty": 4,
+      "flagged_long": 4
+    },
+    "redaction_counts": {
+      "email": 55,
+      "phone": 91,
+      "order_id": 132
+    },
+    "redaction_total": 278,
+    "retry_count": 19,
+    "retries": [
+      {
+        "ticket_id": "T0002",
+        "retry_number": 0,
+        "wait_seconds": 0.05299283498072355
+      },
+      {
+        "ticket_id": "T0116",
+        "retry_number": 0,
+        "wait_seconds": 0.04548189799171726
+      },
+      {
+        "ticket_id": "T0153",
+        "retry_number": 0,
+        "wait_seconds": 0.05010669849068117
+      },
+      {
+        "ticket_id": "T0039",
+        "retry_number": 0,
+        "wait_seconds": 0.04839844267980114
+      },
+      {
+        "ticket_id": "T0152",
+        "retry_number": 0,
+        "wait_seconds": 0.0561033509556561
+      },
+      {
+        "ticket_id": "T0043",
+        "retry_number": 0,
+        "wait_seconds": 0.049398078197848534
+      },
+      {
+        "ticket_id": "T0111",
+        "retry_number": 0,
+        "wait_seconds": 0.051851972855204126
+      },
+      {
+        "ticket_id": "T0155",
+        "retry_number": 0,
+        "wait_seconds": 0.0458360497042844
+      },
+      {
+        "ticket_id": "T0100",
+        "retry_number": 0,
+        "wait_seconds": 0.05121920710948252
+      },
+      {
+        "ticket_id": "T0068",
+        "retry_number": 0,
+        "wait_seconds": 0.04804397203386671
+      },
+      {
+        "ticket_id": "T0135",
+        "retry_number": 0,
+        "wait_seconds": 0.05722943572963746
+      },
+      {
+        "ticket_id": "T0009",
+        "retry_number": 0,
+        "wait_seconds": 0.0527142684583744
+      },
+      {
+        "ticket_id": "T0067",
+        "retry_number": 0,
+        "wait_seconds": 0.05642053715693614
+      },
+      {
+        "ticket_id": "T0106",
+        "retry_number": 0,
+        "wait_seconds": 0.046129248178366875
+      },
+      {
+        "ticket_id": "T0097",
+        "retry_number": 0,
+        "wait_seconds": 0.057073989850311806
+      },
+      {
+        "ticket_id": "T0003",
+        "retry_number": 0,
+        "wait_seconds": 0.045532071419782216
+      },
+      {
+        "ticket_id": "T0019",
+        "retry_number": 0,
+        "wait_seconds": 0.052259464561674455
+      },
+      {
+        "ticket_id": "T0086",
+        "retry_number": 0,
+        "wait_seconds": 0.04780231843559158
+      },
+      {
+        "ticket_id": "T0065",
+        "retry_number": 0,
+        "wait_seconds": 0.048847584434172225
+      }
+    ],
+    "budget_exhausted": 0
+  },
+  "budget_demo": {
+    "run": "budget-demo",
+    "budget": 6000,
+    "total_tokens": 6036,
+    "classified": 86,
+    "tokens_per_classified": 70.18604651162791,
+    "accuracy": 0.8372093023255814,
+    "status_counts": {
+      "classified_json": 79,
+      "budget_exhausted": 65,
+      "classified_keyword": 7,
+      "flagged_invalid_output": 5,
+      "skipped_empty": 4,
+      "flagged_long": 4
+    },
+    "redaction_counts": {
+      "email": 28,
+      "phone": 57,
+      "order_id": 74
+    },
+    "redaction_total": 159,
+    "retry_count": 11,
+    "retries": [
+      {
+        "ticket_id": "T0002",
+        "retry_number": 0,
+        "wait_seconds": 0.05299283498072355
+      },
+      {
+        "ticket_id": "T0116",
+        "retry_number": 0,
+        "wait_seconds": 0.04548189799171726
+      },
+      {
+        "ticket_id": "T0153",
+        "retry_number": 0,
+        "wait_seconds": 0.05010669849068117
+      },
+      {
+        "ticket_id": "T0039",
+        "retry_number": 0,
+        "wait_seconds": 0.04839844267980114
+      },
+      {
+        "ticket_id": "T0152",
+        "retry_number": 0,
+        "wait_seconds": 0.0561033509556561
+      },
+      {
+        "ticket_id": "T0043",
+        "retry_number": 0,
+        "wait_seconds": 0.049398078197848534
+      },
+      {
+        "ticket_id": "T0111",
+        "retry_number": 0,
+        "wait_seconds": 0.051851972855204126
+      },
+      {
+        "ticket_id": "T0155",
+        "retry_number": 0,
+        "wait_seconds": 0.0458360497042844
+      },
+      {
+        "ticket_id": "T0100",
+        "retry_number": 0,
+        "wait_seconds": 0.05121920710948252
+      },
+      {
+        "ticket_id": "T0068",
+        "retry_number": 0,
+        "wait_seconds": 0.04804397203386671
+      },
+      {
+        "ticket_id": "T0135",
+        "retry_number": 0,
+        "wait_seconds": 0.05722943572963746
+      }
+    ],
+    "budget_exhausted": 65
+  }
+}

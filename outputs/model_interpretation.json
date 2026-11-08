@@ -1,0 +1,76 @@
+{
+  "random_forest_top5": [
+    {
+      "feature": "num__monetary",
+      "importance": 0.2778569402002146
+    },
+    {
+      "feature": "num__frequency",
+      "importance": 0.27677743565500723
+    },
+    {
+      "feature": "num__recency",
+      "importance": 0.11126365853902365
+    },
+    {
+      "feature": "num__avg_delivery",
+      "importance": 0.06167673857421083
+    },
+    {
+      "feature": "num__avg_discount",
+      "importance": 0.05317738847803311
+    }
+  ],
+  "logistic_largest_coefficients": [
+    {
+      "feature": "num__frequency",
+      "coefficient": -1.465196092736434,
+      "sign": "negative"
+    },
+    {
+      "feature": "cat__favourite_category_Electronics",
+      "coefficient": -0.8287141553317999,
+      "sign": "negative"
+    },
+    {
+      "feature": "cat__city_Delhi",
+      "coefficient": -0.4950966654468205,
+      "sign": "negative"
+    },
+    {
+      "feature": "cat__favourite_category_Grocery",
+      "coefficient": -0.4185527256598401,
+      "sign": "negative"
+    },
+    {
+      "feature": "cat__city_Mumbai",
+      "coefficient": -0.3457197174089871,
+      "sign": "negative"
+    },
+    {
+      "feature": "cat__gender_male",
+      "coefficient": -0.29021464830549043,
+      "sign": "negative"
+    },
+    {
+      "feature": "cat__city_Hyderabad",
+      "coefficient": -0.2860776478067758,
+      "sign": "negative"
+    },
+    {
+      "feature": "cat__favourite_category_Snacks",
+      "coefficient": -0.26447703616164575,
+      "sign": "negative"
+    },
+    {
+      "feature": "cat__city_Chennai",
+      "coefficient": -0.24513609633730635,
+      "sign": "negative"
+    },
+    {
+      "feature": "cat__favourite_category_Personal Care",
+      "coefficient": -0.24382306747559732,
+      "sign": "negative"
+    }
+  ]
+}
